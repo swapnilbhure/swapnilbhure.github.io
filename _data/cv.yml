@@ -2,96 +2,116 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Bhure Swapnil Shadanan
     - name: Languages
-      value: English, German
+      value: English, Marathi, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD Materials Engineering
+      institution: Indian Institute of Science (IISc), Bangalore, Karnataka, India
+      year: Jan 2020 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - CGPA- 8.7/10.0 (course work)
+     
+
+    - title: ME Design Engineering
+      institution: Birla Institute of Technology and Science (BITS), Pilani, Rajasthan, India
+      year: Aug 2017 - June 2019
+      description:
+        - CGPA- 8.74/10.0 
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: PhD Research, Materials Engineering
+      institution: Indian Institute of Science (IISc), Bangalore, Karnataka, India
+      year: Jan 2020 - Present
+      description: 
+        - title: Multi-scale modelling, simulation and experimental study of metal additive manufacturing..
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - The aim of this research is to manufacture crack-free single crystal Ni-based superalloy parts using additive manufacturing.
+            - Developed a process model to simulate heat transfer and fluid flow for multi-layer deposition during AM process.
+            - Developed a grand-potential and orientation-field-based phase-field model to simulate columnar to equiaxed transition (CET) and micro-segregation.
+            - Developed a Monte-Carlo based model to simulate grain growth during AM process.
+            - Conducted directed energy deposition (DED) based AM experiments to validate process and microstructure model.
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+    - title: Junior Research Fellow, Materials Engineering
+      institution: Indian Institute of Science (IISc), Bangalore, Karnataka, India
+      year: July 2019 - Dec 2019
+      description: 
+        - title:  Modelling and simulation of microstructure evolution in metal additive manufacturing (AM).
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+            - Wrote C++ codes to simulate heat transfer and solute diffusion using the finite difference method.
+            - Obtained liquid steel to the austenite phase transformation with nucleation and grain growth model using cellular automata method; obtained dendrite formation and solute segregation patterns for multi-layered metal deposition in a 2-D lattice.
+            - Simulated the solid-state transformation using the phase-field method to obtain austenite to pearlite and martensite transformations.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Guest Lecturer, Department of Metallurgical and Materials Engineering, VNIT, Nagpur
+      year: Aug 2022 - Present
+      description: 
+        - title: Foundations and applications of modelling and simulation
+          contents: 
+            - Introduced a two-part certification course on foundations and applications of modelling and simulation for UG students. Part-1 consisted of 14-hours of lectures with 7 hours of theory lectures and 7 hours of hands-on Python coding tutorials.
+            - 10 students were awarded the course completion certificate on clearing an evaluation exam.
+            - In the applications part, conducting lectures on phase-field method and Monte-Carlo method and conducting tutorials on Python and OpenFOAM.
 
-- title: Honors and Awards
+    - title: Guest Lecturer, Department of Mechanical Engineering, YCCE, Nagpur
+      year: Jan 2022 - April 2022
+      description: 
+        - title: Foundations of modelling and simulation for mechanical engineers
+          contents: 
+            - Conducted a 16-hour course for third year UG students. It contained 9 hours of theory lectures and 7 hours of hands-on Python tutorials.
+            - 15 students earned academic credit points and certificates for attending and completing this course.
+    
+    - title: Guest Lecturer, Department of Metallurgical and Materials Engineering, VNIT, Nagpur
+      year: Sept 2021 - Dec 2021
+      description: 
+        - title: Foundations of modelling and simulation
+          contents: 
+            - Introduced a short-term certification course on foundations of modelling and simulation for UG and PG students. This 16-hour lecture series consisted of 9 hours of theory lectures and 7 hours of hands-on Python coding tutorials.
+            - 13 students were awarded the course completion certificate on clearing an evaluation exam.
+
+    - title: Guest Lecturer, Department of Mechanical Engineering, YCCE, Nagpur
+      year: Feb 2021 - May 2021
+      description: 
+        - title: Computational modelling and simulation for mechanical engineers
+          contents: 
+            - Introduced a 15-hour lecture series cum certification course on computational modelling and simulation for third and fourth year UG students. It contained 9 hours of theory lectures and 6 hours of hands-on Python tutorials.
+            - Conducted an additional 3 hours of career counselling session for mechanical engineering UG students.
+
+
+- title: Awards and Positions of responsibility
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
+    - title: Convenor - 35th Annual Students’ Symposium, Materials Engineering, IISc, Bangalore 
+      year: April 2022
+      description: 
+        - Core member of the organizing committee for 2-day students’ symposium.
+        - Organized 4 invited talks, 19 platform presentations, 15 poster presentations and a materialography contest.
+    
+    - title: Prime Minister’s Research Fellowship
+      year: Aug 2020-Present
+      description: 
+        - Awarded by Ministry of Education, Government of India for conducting doctoral research for a period of four years.
+     
+- title: Computer Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Languages
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - C++, Python, Linux Shell Script, LaTeX.
+    - title: Softwares
       items:
-        - Description 1.
-        - Description 2.
+        - OpenFOAM, MATLAB, Octave, PanDat, Simufact Additive.
 
-- title: Other Interests
+- title: Interests and hobbies
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Gardening, crafts, architecture, visual arts and stories, music, biomimicry, Indian scriptures,
+
