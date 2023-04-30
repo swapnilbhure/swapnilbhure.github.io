@@ -1,422 +1,222 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://alshedivat.github.io/al-folio/feed.xml" rel="self" type="application/atom+xml" /><link href="https://alshedivat.github.io/al-folio/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-30T12:22:08+00:00</updated><id>https://alshedivat.github.io/al-folio/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">a post with table of contents on a sidebar</title><link href="https://alshedivat.github.io/al-folio/blog/2023/sidebar-table-of-contents/" rel="alternate" type="text/html" title="a post with table of contents on a sidebar" /><published>2023-04-25T14:14:00+00:00</published><updated>2023-04-25T14:14:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2023/sidebar-table-of-contents</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2023/sidebar-table-of-contents/"><![CDATA[<p>This post shows how to add a table of contents as a sidebar.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://swapnilbhure.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://swapnilbhure.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-30T14:51:24+00:00</updated><id>https://swapnilbhure.github.io/feed.xml</id><title type="html">Swapnil S. Bhure</title><subtitle>Swapnil Bhure&apos;s personal website.
+</subtitle><entry><title type="html">Resources for understanding and visualising mathematics</title><link href="https://swapnilbhure.github.io/blog/2021/maths-resources/" rel="alternate" type="text/html" title="Resources for understanding and visualising mathematics" /><published>2021-09-13T00:00:00+00:00</published><updated>2021-09-13T00:00:00+00:00</updated><id>https://swapnilbhure.github.io/blog/2021/maths-resources</id><content type="html" xml:base="https://swapnilbhure.github.io/blog/2021/maths-resources/"><![CDATA[<p>The internet is flooded with mathematics related resources like books, video lectures, notes, etc. but here is the list of resources that are quick to refer to and easy to understand. They focus more on understanding the concepts and visualising them than just mugging up and solving questions. I found them relevant as a Mechanical and Materials Engineer working in the area of computation, modelling and simulation.</p>
 
-<h2 id="adding-a-table-of-contents">Adding a Table of Contents</h2>
+<h3 id="numerical-methods">Numerical Methods:</h3>
 
-<p>To add a table of contents to a post as a sidebar, simply add</p>
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">toc</span><span class="pi">:</span>
-  <span class="na">sidebar</span><span class="pi">:</span> <span class="s">left</span>
-</code></pre></div></div>
-<p>to the front matter of the post. The table of contents will be automatically generated from the headings in the post. If you wish to display the sidebar to the right, simply change <code class="language-plaintext highlighter-rouge">left</code> to <code class="language-plaintext highlighter-rouge">right</code>.</p>
+<p><a href="https://nptel.ac.in/noc/courses/noc20/SEM2/noc20-ge20/">Numerical Methods for Engineers</a> by Prof Niket Kaisare, IITM. (NPTEL)</p>
 
-<h3 id="example-of-sub-heading-1">Example of Sub-Heading 1</h3>
+<p> </p>
 
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
+<h3 id="differential-equations">Differential Equations:</h3>
 
-<h3 id="example-of-another-sub-heading-1">Example of another Sub-Heading 1</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
-
-<h2 data-toc-text="Customizing" id="customizing-your-table-of-contents">Customizing Your Table of Contents</h2>
-
-<p>If you want to learn more about how to customize the table of contents of your sidebar, you can check the <a href="https://afeld.github.io/bootstrap-toc/">bootstrap-toc</a> documentation. Notice that you can even customize the text of the heading that will be displayed on the sidebar.</p>
-
-<h3 id="example-of-sub-heading-2">Example of Sub-Heading 2</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
-
-<h3 id="example-of-another-sub-heading-2">Example of another Sub-Heading 2</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="toc" /><category term="sidebar" /><summary type="html"><![CDATA[an example of a blog post with table of contents on a sidebar]]></summary></entry><entry><title type="html">a post with table of contents</title><link href="https://alshedivat.github.io/al-folio/blog/2023/table-of-contents/" rel="alternate" type="text/html" title="a post with table of contents" /><published>2023-03-20T15:59:00+00:00</published><updated>2023-03-20T15:59:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2023/table-of-contents</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2023/table-of-contents/"><![CDATA[<p>This post shows how to add a table of contents in the beginning of the post.</p>
-
-<h2 id="adding-a-table-of-contents">Adding a Table of Contents</h2>
-
-<p>To add a table of contents to a post, simply add</p>
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">toc</span><span class="pi">:</span>
-  <span class="na">beginning</span><span class="pi">:</span> <span class="kc">true</span>
-</code></pre></div></div>
-<p>to the front matter of the post. The table of contents will be automatically generated from the headings in the post.</p>
-
-<h3 id="example-of-sub-heading-1">Example of Sub-Heading 1</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
-
-<h3 id="example-of-another-sub-heading-1">Example of another Sub-Heading 1</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
-
-<h2 id="table-of-contents-options">Table of Contents Options</h2>
-
-<p>If you want to learn more about how to customize the table of contents, you can check the <a href="https://github.com/toshimaru/jekyll-toc">jekyll-toc</a> repository.</p>
-
-<h3 id="example-of-sub-heading-2">Example of Sub-Heading 2</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
-
-<h3 id="example-of-another-sub-heading-2">Example of another Sub-Heading 2</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="toc" /><summary type="html"><![CDATA[an example of a blog post with table of contents]]></summary></entry><entry><title type="html">a post with giscus comments</title><link href="https://alshedivat.github.io/al-folio/blog/2022/giscus-comments/" rel="alternate" type="text/html" title="a post with giscus comments" /><published>2022-12-10T15:59:00+00:00</published><updated>2022-12-10T15:59:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2022/giscus-comments</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2022/giscus-comments/"><![CDATA[<p>This post shows how to add GISCUS comments.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><summary type="html"><![CDATA[an example of a blog post with giscus comments]]></summary></entry><entry><title type="html">Displaying External Posts on Your al-folio Blog</title><link href="https://alshedivat.github.io/al-folio/blog/2022/displaying-external-posts-on-your-al-folio-blog/" rel="alternate" type="text/html" title="Displaying External Posts on Your al-folio Blog" /><published>2022-04-23T23:20:09+00:00</published><updated>2022-04-23T23:20:09+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2022/displaying-external-posts-on-your-al-folio-blog</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2022/displaying-external-posts-on-your-al-folio-blog/"><![CDATA[]]></content><author><name></name></author></entry><entry><title type="html">a post with redirect</title><link href="https://alshedivat.github.io/al-folio/blog/2022/redirect/" rel="alternate" type="text/html" title="a post with redirect" /><published>2022-02-01T17:39:00+00:00</published><updated>2022-02-01T17:39:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2022/redirect</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2022/redirect/"><![CDATA[<p>Redirecting to another page.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[you can also redirect to assets like pdf]]></summary></entry><entry><title type="html">a post with diagrams</title><link href="https://alshedivat.github.io/al-folio/blog/2021/diagrams/" rel="alternate" type="text/html" title="a post with diagrams" /><published>2021-07-04T17:39:00+00:00</published><updated>2021-07-04T17:39:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2021/diagrams</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2021/diagrams/"><![CDATA[<p>This theme supports generating various diagrams from a text description using <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank">jekyll-diagrams</a> plugin.
-Below, we generate a few examples of such diagrams using languages such as <a href="https://mermaid-js.github.io/mermaid/" target="\_blank">mermaid</a>, <a href="https://plantuml.com/" target="\_blank">plantuml</a>, <a href="https://vega.github.io/vega-lite/" target="\_blank">vega-lite</a>, etc.</p>
-
-<p><strong>Note:</strong> different diagram-generation packages require external dependencies to be installed on your machine.
-Also, be mindful of that because of diagram generation the fist time you build your Jekyll website after adding new diagrams will be SLOW.
-For any other details, please refer to <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank">jekyll-diagrams</a> README.</p>
-
-<h2 id="mermaid">Mermaid</h2>
-
-<p>Install mermaid using <code class="language-plaintext highlighter-rouge">node.js</code> package manager <code class="language-plaintext highlighter-rouge">npm</code> by running the following command:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install</span> <span class="nt">-g</span> mermaid.cli
-</code></pre></div></div>
-
-<p>The diagram below was generated by the following code:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% mermaid %}
-sequenceDiagram
-    participant John
-    participant Alice
-    Alice-&gt;&gt;John: Hello John, how are you?
-    John--&gt;&gt;Alice: Great!
-{% endmermaid %}
-</code></pre></div></div>
-
-<div class="jekyll-diagrams diagrams mermaid">
-  <svg id="mermaid-1682857338689" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:450px;" viewBox="-50 -10 450 231"><style>#mermaid-1682857338689 .label{font-family:trebuchet ms,verdana,arial;color:#333}#mermaid-1682857338689 .node circle,#mermaid-1682857338689 .node ellipse,#mermaid-1682857338689 .node polygon,#mermaid-1682857338689 .node rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1682857338689 .node.clickable{cursor:pointer}#mermaid-1682857338689 .arrowheadPath{fill:#333}#mermaid-1682857338689 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1682857338689 .edgeLabel{background-color:#e8e8e8}#mermaid-1682857338689 .cluster rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1682857338689 .cluster text{fill:#333}#mermaid-1682857338689 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1682857338689 .actor{stroke:#ccf;fill:#ececff}#mermaid-1682857338689 text.actor{fill:#000;stroke:none}#mermaid-1682857338689 .actor-line{stroke:grey}#mermaid-1682857338689 .messageLine0{marker-end:"url(#arrowhead)"}#mermaid-1682857338689 .messageLine0,#mermaid-1682857338689 .messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#mermaid-1682857338689 #arrowhead{fill:#333}#mermaid-1682857338689 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1682857338689 .messageText{fill:#333;stroke:none}#mermaid-1682857338689 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1682857338689 .labelText,#mermaid-1682857338689 .loopText{fill:#000;stroke:none}#mermaid-1682857338689 .loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#ccf}#mermaid-1682857338689 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1682857338689 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1682857338689 .section{stroke:none;opacity:.2}#mermaid-1682857338689 .section0{fill:rgba(102,102,255,.49)}#mermaid-1682857338689 .section2{fill:#fff400}#mermaid-1682857338689 .section1,#mermaid-1682857338689 .section3{fill:#fff;opacity:.2}#mermaid-1682857338689 .sectionTitle0,#mermaid-1682857338689 .sectionTitle1,#mermaid-1682857338689 .sectionTitle2,#mermaid-1682857338689 .sectionTitle3{fill:#333}#mermaid-1682857338689 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1682857338689 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1682857338689 .grid path{stroke-width:0}#mermaid-1682857338689 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1682857338689 .task{stroke-width:2}#mermaid-1682857338689 .taskText{text-anchor:middle;font-size:11px}#mermaid-1682857338689 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1682857338689 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1682857338689 .taskText0,#mermaid-1682857338689 .taskText1,#mermaid-1682857338689 .taskText2,#mermaid-1682857338689 .taskText3{fill:#fff}#mermaid-1682857338689 .task0,#mermaid-1682857338689 .task1,#mermaid-1682857338689 .task2,#mermaid-1682857338689 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1682857338689 .taskTextOutside0,#mermaid-1682857338689 .taskTextOutside1,#mermaid-1682857338689 .taskTextOutside2,#mermaid-1682857338689 .taskTextOutside3{fill:#000}#mermaid-1682857338689 .active0,#mermaid-1682857338689 .active1,#mermaid-1682857338689 .active2,#mermaid-1682857338689 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1682857338689 .activeText0,#mermaid-1682857338689 .activeText1,#mermaid-1682857338689 .activeText2,#mermaid-1682857338689 .activeText3{fill:#000!important}#mermaid-1682857338689 .done0,#mermaid-1682857338689 .done1,#mermaid-1682857338689 .done2,#mermaid-1682857338689 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1682857338689 .doneText0,#mermaid-1682857338689 .doneText1,#mermaid-1682857338689 .doneText2,#mermaid-1682857338689 .doneText3{fill:#000!important}#mermaid-1682857338689 .crit0,#mermaid-1682857338689 .crit1,#mermaid-1682857338689 .crit2,#mermaid-1682857338689 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1682857338689 .activeCrit0,#mermaid-1682857338689 .activeCrit1,#mermaid-1682857338689 .activeCrit2,#mermaid-1682857338689 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1682857338689 .doneCrit0,#mermaid-1682857338689 .doneCrit1,#mermaid-1682857338689 .doneCrit2,#mermaid-1682857338689 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1682857338689 .activeCritText0,#mermaid-1682857338689 .activeCritText1,#mermaid-1682857338689 .activeCritText2,#mermaid-1682857338689 .activeCritText3,#mermaid-1682857338689 .doneCritText0,#mermaid-1682857338689 .doneCritText1,#mermaid-1682857338689 .doneCritText2,#mermaid-1682857338689 .doneCritText3{fill:#000!important}#mermaid-1682857338689 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1682857338689 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1682857338689 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1682857338689 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1682857338689 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1682857338689 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1682857338689 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1682857338689 #compositionEnd,#mermaid-1682857338689 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1682857338689 #aggregationEnd,#mermaid-1682857338689 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1682857338689 #dependencyEnd,#mermaid-1682857338689 #dependencyStart,#mermaid-1682857338689 #extensionEnd,#mermaid-1682857338689 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1682857338689 .branch-label,#mermaid-1682857338689 .commit-id,#mermaid-1682857338689 .commit-msg{fill:#d3d3d3;color:#d3d3d3}</style><style>#mermaid-1682857338689 {
-    color: rgb(0, 0, 0);
-    font: normal normal 400 normal 16px / normal "Times New Roman";
-  }</style><g></g><g><line id="actor0" x1="75" y1="5" x2="75" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">John</tspan></text></g><g><line id="actor1" x1="275" y1="5" x2="275" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Alice</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><g><text x="175" y="93" class="messageText" style="text-anchor: middle;">Hello John, how are you?</text><line x1="275" y1="100" x2="75" y2="100" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="175" y="128" class="messageText" style="text-anchor: middle;">Great!</text><line x1="75" y1="135" x2="275" y2="135" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><rect x="0" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">John</tspan></text></g><g><rect x="200" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Alice</tspan></text></g></svg>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[an example of a blog post with diagrams]]></summary></entry><entry><title type="html">a distill-style blog post</title><link href="https://alshedivat.github.io/al-folio/blog/2021/distill/" rel="alternate" type="text/html" title="a distill-style blog post" /><published>2021-05-22T00:00:00+00:00</published><updated>2021-05-22T00:00:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2021/distill</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2021/distill/"><![CDATA[<h2 id="equations">Equations</h2>
-
-<p>This theme supports rendering beautiful math in inline and display modes using <a href="https://www.mathjax.org/">MathJax 3</a> engine.
-You just need to surround your math expression with <code class="language-plaintext highlighter-rouge">$$</code>, like <code class="language-plaintext highlighter-rouge">$$ E = mc^2 $$</code>.
-If you leave it inside a paragraph, it will produce an inline expression, just like \(E = mc^2\).</p>
-
-<p>To use display mode, again surround your expression with <code class="language-plaintext highlighter-rouge">$$</code> and place it as a separate paragraph.
-Here is an example:</p>
-
-\[\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)\]
-
-<p>Note that MathJax 3 is <a href="https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html">a major re-write of MathJax</a> that brought a significant improvement to the loading and rendering speed, which is now <a href="http://www.intmath.com/cg5/katex-mathjax-comparison.php">on par with KaTeX</a>.</p>
-
-<hr />
-
-<h2 id="citations">Citations</h2>
-
-<p>Citations are then used in the article body with the <code class="language-plaintext highlighter-rouge">&lt;d-cite&gt;</code> tag.
-The key attribute is a reference to the id provided in the bibliography.
-The key attribute can take multiple ids, separated by commas.</p>
-
-<p>The citation is presented inline like this: <d-cite key="gregor2015draw"></d-cite> (a number that displays more information on hover).
-If you have an appendix, a bibliography is automatically created and populated in it.</p>
-
-<p>Distill chose a numerical inline citation style to improve readability of citation dense articles and because many of the benefits of longer citations are obviated by displaying more information on hover.
-However, we consider it good style to mention author last names if you discuss something at length and it fits into the flow well — the authors are human and it’s nice for them to have the community associate them with their work.</p>
-
-<hr />
-
-<h2 id="footnotes">Footnotes</h2>
-
-<p>Just wrap the text you would like to show up in a footnote in a <code class="language-plaintext highlighter-rouge">&lt;d-footnote&gt;</code> tag.
-The number of the footnote will be automatically generated.<d-footnote>This will become a hoverable footnote.</d-footnote></p>
-
-<hr />
-
-<h2 id="code-blocks">Code Blocks</h2>
-
-<p>Syntax highlighting is provided within <code class="language-plaintext highlighter-rouge">&lt;d-code&gt;</code> tags.
-An example of inline code snippets: <code class="language-plaintext highlighter-rouge">&lt;d-code language="html"&gt;let x = 10;&lt;/d-code&gt;</code>.
-For larger blocks of code, add a <code class="language-plaintext highlighter-rouge">block</code> attribute:</p>
-
-<d-code block="" language="javascript">
-  var x = 25;
-  function(x) {
-    return x * x;
-  }
-</d-code>
-
-<p><strong>Note:</strong> <code class="language-plaintext highlighter-rouge">&lt;d-code&gt;</code> blocks do not look good in the dark mode.
-You can always use the default code-highlight using the <code class="language-plaintext highlighter-rouge">highlight</code> liquid tag:</p>
-
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="mi">25</span><span class="p">;</span>
-<span class="kd">function</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">return</span> <span class="nx">x</span> <span class="o">*</span> <span class="nx">x</span><span class="p">;</span>
-<span class="p">}</span></code></pre></figure>
-
-<hr />
-
-<h2 id="interactive-plots">Interactive Plots</h2>
-
-<p>You can add interative plots using plotly + iframes :framed_picture:</p>
-
-<div class="l-page">
-  <iframe src="/al-folio/assets/plotly/demo.html" frameborder="0" scrolling="no" height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
-</div>
-
-<p>The plot must be generated separately and saved into an HTML file.
-To generate the plot that you see above, you can use the following code snippet:</p>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="n">pandas</span> <span class="k">as</span> <span class="n">pd</span>
-<span class="kn">import</span> <span class="n">plotly.express</span> <span class="k">as</span> <span class="n">px</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="nf">read_csv</span><span class="p">(</span>
-  <span class="s">'https://raw.githubusercontent.com/plotly/datasets/master/earthquakes-23k.csv'</span>
-<span class="p">)</span>
-<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="p">.</span><span class="nf">density_mapbox</span><span class="p">(</span>
-  <span class="n">df</span><span class="p">,</span>
-  <span class="n">lat</span><span class="o">=</span><span class="s">'Latitude'</span><span class="p">,</span>
-  <span class="n">lon</span><span class="o">=</span><span class="s">'Longitude'</span><span class="p">,</span>
-  <span class="n">z</span><span class="o">=</span><span class="s">'Magnitude'</span><span class="p">,</span>
-  <span class="n">radius</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span>
-  <span class="n">center</span><span class="o">=</span><span class="nf">dict</span><span class="p">(</span><span class="n">lat</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">lon</span><span class="o">=</span><span class="mi">180</span><span class="p">),</span>
-  <span class="n">zoom</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
-  <span class="n">mapbox_style</span><span class="o">=</span><span class="s">"stamen-terrain"</span><span class="p">,</span>
-<span class="p">)</span>
-<span class="n">fig</span><span class="p">.</span><span class="nf">show</span><span class="p">()</span>
-<span class="n">fig</span><span class="p">.</span><span class="nf">write_html</span><span class="p">(</span><span class="s">'assets/plotly/demo.html'</span><span class="p">)</span></code></pre></figure>
-
-<hr />
-
-<h2 id="details-boxes">Details boxes</h2>
-
-<p>Details boxes are collapsible boxes which hide additional information from the user. They can be added with the <code class="language-plaintext highlighter-rouge">details</code> liquid tag:</p>
-
-<details><summary>Click here to know more</summary>
-<p>Additional details, where math \(2x - 1\) and <code class="language-plaintext highlighter-rouge">code</code> is rendered correctly.</p>
-</details>
-
-<hr />
-
-<h2 id="layouts">Layouts</h2>
-
-<p>The main text column is referred to as the body.
-It is the assumed layout of any direct descendants of the <code class="language-plaintext highlighter-rouge">d-article</code> element.</p>
-
-<div class="fake-img l-body">
-  <p>.l-body</p>
-</div>
-
-<p>For images you want to display a little larger, try <code class="language-plaintext highlighter-rouge">.l-page</code>:</p>
-
-<div class="fake-img l-page">
-  <p>.l-page</p>
-</div>
-
-<p>All of these have an outset variant if you want to poke out from the body text a little bit.
-For instance:</p>
-
-<div class="fake-img l-body-outset">
-  <p>.l-body-outset</p>
-</div>
-
-<div class="fake-img l-page-outset">
-  <p>.l-page-outset</p>
-</div>
-
-<p>Occasionally you’ll want to use the full browser width.
-For this, use <code class="language-plaintext highlighter-rouge">.l-screen</code>.
-You can also inset the element a little from the edge of the browser by using the inset variant.</p>
-
-<div class="fake-img l-screen">
-  <p>.l-screen</p>
-</div>
-<div class="fake-img l-screen-inset">
-  <p>.l-screen-inset</p>
-</div>
-
-<p>The final layout is for marginalia, asides, and footnotes.
-It does not interrupt the normal flow of <code class="language-plaintext highlighter-rouge">.l-body</code> sized text except on mobile screen sizes.</p>
-
-<div class="fake-img l-gutter">
-  <p>.l-gutter</p>
-</div>
-
-<hr />
-
-<h2 id="other-typography">Other Typography?</h2>
-
-<p>Emphasis, aka italics, with <em>asterisks</em> (<code class="language-plaintext highlighter-rouge">*asterisks*</code>) or <em>underscores</em> (<code class="language-plaintext highlighter-rouge">_underscores_</code>).</p>
-
-<p>Strong emphasis, aka bold, with <strong>asterisks</strong> or <strong>underscores</strong>.</p>
-
-<p>Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.</p>
-
-<p>Strikethrough uses two tildes. <del>Scratch this.</del></p>
+<h4 id="basics">Basics:</h4>
 
 <ol>
-  <li>First ordered list item</li>
-  <li>Another item
-⋅⋅* Unordered sub-list.</li>
-  <li>Actual numbers don’t matter, just that it’s a number
-⋅⋅1. Ordered sub-list</li>
-  <li>And another item.</li>
+  <li>
+    <p><a href="https://youtube.com/playlist?list=PLSQl0a2vh4HCHBrSa1YErcRXpiz_BQRDS">Partial derivatives, gradient, divergence, curl</a>: Multivariable Calculus by Khan Academy. (YouTube)</p>
+  </li>
+  <li>
+    <p><a href="https://youtube.com/playlist?list=PLSQl0a2vh4HBdTlkyCh7g-DRr53z1IKDl">First order differential equations</a>: Differential Equations by Khan Academy. (YouTube)</p>
+  </li>
+  <li>
+    <p><a href="https://youtube.com/playlist?list=PLSQl0a2vh4HBkFM7Ip54d-NO6QPb3RwMI">Second order differential equations</a>: Differential Equations by Khan Academy. (YouTube)</p>
+  </li>
 </ol>
 
-<p>⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we’ll use three here to also align the raw Markdown).</p>
+<h4 id="advanced">Advanced:</h4>
+<ol>
+  <li>
+    <p><a href="https://youtube.com/playlist?list=PLwIFHT1FWIUJYuP5y6YEM4WWrY4kEmIuS">Ordinary Differential Equation</a>: by commutant. (YouTube)</p>
+  </li>
+  <li>
+    <p><a href="https://www.youtube.com/playlist?list=PLF6061160B55B0203">Partial Differential Equations</a>: by commutant. (YouTube)</p>
+  </li>
+</ol>
 
-<p>⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)</p>
+<p> </p>
 
-<ul>
-  <li>Unordered list can use asterisks</li>
-  <li>Or minuses</li>
-  <li>Or pluses</li>
-</ul>
+<h3 id="linear-algebra">Linear Algebra:</h3>
 
-<p><a href="https://www.google.com">I’m an inline-style link</a></p>
+<ol>
+  <li>
+    <p><a href="https://youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab">Essence of Linear Algebra</a>: by 3Blue1Brown.</p>
+  </li>
+  <li>
+    <p><a href="https://www.youtube.com/watch?v=6nqMegdbxik">Orthogonality and Orthonormality</a>: by Prof Dave.</p>
+  </li>
+</ol>
 
-<p><a href="https://www.google.com" title="Google's Homepage">I’m an inline-style link with title</a></p>
+<p> </p>
 
-<p><a href="https://www.mozilla.org">I’m a reference-style link</a></p>
+<h3 id="mathematics-youtube-channels">Mathematics YouTube Channels:</h3>
 
-<p><a href="../blob/master/LICENSE">I’m a relative reference to a repository file</a></p>
+<ol>
+  <li>
+    <p><a href="https://www.youtube.com/c/3blue1brown">3Blue1Brown</a>: Understanding and visualising seemingly difficult mathematical concepts. Extensive collection.</p>
+  </li>
+  <li>
+    <p><a href="https://www.youtube.com/user/commutant">commutant</a>: Lectures on differential equations and multi-variable calculus.</p>
+  </li>
+</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[Contains links to YouTube and NPTEL lecture series on Numerical Methods and Differential Equations]]></summary></entry><entry><title type="html">PhD Engineering admission at IISc</title><link href="https://swapnilbhure.github.io/blog/2021/phd-admission-iisc/" rel="alternate" type="text/html" title="PhD Engineering admission at IISc" /><published>2021-08-21T00:00:00+00:00</published><updated>2021-08-21T00:00:00+00:00</updated><id>https://swapnilbhure.github.io/blog/2021/phd-admission-iisc</id><content type="html" xml:base="https://swapnilbhure.github.io/blog/2021/phd-admission-iisc/"><![CDATA[<p><strong>Note:</strong> <em>This article only covers the points which may not be mentioned or found on IISc admissions website. For more details visit <a href="https://iisc.ac.in/admissions/">IISc admissions website</a>. This guide is mostly applicable to PhD engineering program.</em></p>
 
-<p><a href="http://slashdot.org">You can use numbers for reference-style link definitions</a></p>
+<hr />
 
-<p>Or leave it empty and use the <a href="http://www.reddit.com">link text itself</a>.</p>
+<h4 id="how-to-get-into-a-phd-program-at-iisc">How to get into a PhD program at IISc?</h4>
 
-<p>URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <a href="http://www.example.com">http://www.example.com</a> and sometimes
-example.com (but not on Github, for example).</p>
+<p>Most of the departments take PhD students twice a year. IISc has a centralised process for all the departments. You need to apply through a single portal for all the departments of your choice. You can apply to a maximum of three departments and you are allowed to submit only one application. Submitting more than one application may result into rejection/cancellation of application. You need to specify the preference order of the departments at the time of application itself. Candidates are allowed to change the preference order soon after all the interviews are conducted. Just a short window of couple of days is given to make this change.</p>
 
-<p>Some text to show that the reference links can follow later.</p>
+<p>You may apply for PhD engineering through your GATE score and/or MTech score. These are the two options for engineering domain. For science domain, checkout the <a href="https://iisc.ac.in/admissions/research-programmes/">eligibility criteria</a>. For candidates applying through GATE, the screening is done based on GATE score. If candidate is applying through MTech as the qualifying exam, screening is done based on MTech CGPA, GATE score (though it is not mandatory having a valid GATE score adds value to the application), research experience, research papers (again this is not mandatory), undergraduate CGPA, etc. Screening via MTech is not clearly specified nor is the cut-off released to public because there are so many variable in taking a candidate via MTech path.</p>
 
-<p>Here’s our logo (hover to see the title text):</p>
+<p>IISc does not publish the list of candidates selected for next round. Call letter for interviews are sent to only selected candidates. There is no date specified when they will send emails to selected candidates. So there is no way of knowing that you haven’t been called for the interviews. (Your only other resort is contacting admissions office to ask whether the results are out or not). The call letters are sent to selected candidates atleast two weeks before the start of the interview rounds. So, if the interviews are scheduled in two weeks and you haven’t received the call letter then sadly this means you were not selected.</p>
 
-<p>Inline-style:
-<img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alt text" title="Logo Title Text 1" /></p>
+<p>The selection process defers from department to department. Some conduct one or two rounds of written exam while some do not conduct it at all. Some departments directly call for interviews. The number of candidates interviewed are roughly at least ten times more than the number of seat available.</p>
 
-<p>Reference-style:
-<img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alt text" title="Logo Title Text 2" /></p>
+<p><strong>Note:</strong> Other ways to apply for PhD at IISc are through <em>‘<a href="https://may2021.pmrf.in/index.php/guidelines/eligibility-and-application-procedure">PMRF Direct Entry Channel</a>‘</em>, <em>‘<a href="https://online-inspire.gov.in/">INSPIRE fellowship</a>‘</em>. Students who did/are doing their Bachelors from <a href="https://www.education.gov.in/en/technical-education-1">CFTIs</a> and have/had 8.5 plus CGPA then they can apply for direct PhD and in most cases these candidates will be directly called for the interviews.</p>
 
-<p>Inline <code class="language-plaintext highlighter-rouge">code</code> has <code class="language-plaintext highlighter-rouge">back-ticks around</code> it.</p>
+<hr />
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">JavaScript syntax highlighting</span><span class="dl">"</span><span class="p">;</span>
-<span class="nf">alert</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span>
-</code></pre></div></div>
+<h4 id="what-are-different-funding-options">What are different funding options?</h4>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s</span> <span class="o">=</span> <span class="s">"Python syntax highlighting"</span>
-<span class="k">print</span> <span class="n">s</span>
-</code></pre></div></div>
+<ol>
+  <li>
+    <p>If you get admitted via above mentioned normal admission path, then you will receive 31k/month for first two years and later 35k/month.</p>
+  </li>
+  <li>
+    <p>IISc is one of the PMRF granting institutes with the highest intake in the country. Through this fellowship you will get 70k/month till the end of 2nd year of PhD, 75k in 3rd year and 80k in subsequent years. The seats are limited and highly competitive. Along which this, the fellows get rupees two lakh rupees per year as contingency grant for conducting their research. For more details visit <a href="https://may2021.pmrf.in/">PMRF official website</a>.
+To get PMRF there are two paths:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>No language indicated, so no syntax highlighting.
-But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
-</code></pre></div></div>
-
-<p>Colons can be used to align columns.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Tables</th>
-      <th style="text-align: center">Are</th>
-      <th style="text-align: right">Cool</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>col 3 is</td>
-      <td style="text-align: center">right-aligned</td>
-      <td style="text-align: right">$1600</td>
-    </tr>
-    <tr>
-      <td>col 2 is</td>
-      <td style="text-align: center">centered</td>
-      <td style="text-align: right">$12</td>
-    </tr>
-    <tr>
-      <td>zebra stripes</td>
-      <td style="text-align: center">are neat</td>
-      <td style="text-align: right">$1</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don’t need to make the
-raw Markdown line up prettily. You can also use inline Markdown.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Markdown</th>
-      <th>Less</th>
-      <th>Pretty</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><em>Still</em></td>
-      <td><code class="language-plaintext highlighter-rouge">renders</code></td>
-      <td><strong>nicely</strong></td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
-  </tbody>
-</table>
-
-<blockquote>
-  <p>Blockquotes are very handy in email to emulate reply text.
-This line is part of the same quote.</p>
-</blockquote>
-
-<p>Quote break.</p>
-
-<blockquote>
-  <p>This is a very long line that will still be quoted properly when it wraps. Oh boy let’s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can <em>put</em> <strong>Markdown</strong> into a blockquote.</p>
-</blockquote>
-
-<p>Here’s a line for us to start with.</p>
-
-<p>This line is separated from the one above by two newlines, so it will be a <em>separate paragraph</em>.</p>
-
-<p>This line is also a separate paragraph, but…
-This line is only separated by a single newline, so it’s a separate line in the <em>same paragraph</em>.</p>]]></content><author><name>Albert Einstein</name></author><summary type="html"><![CDATA[an example of a distill-style blog post and main elements]]></summary></entry><entry><title type="html">a post with github metadata</title><link href="https://alshedivat.github.io/al-folio/blog/2020/github-metadata/" rel="alternate" type="text/html" title="a post with github metadata" /><published>2020-09-28T21:01:00+00:00</published><updated>2020-09-28T21:01:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2020/github-metadata</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2020/github-metadata/"><![CDATA[<p>A sample blog page that demonstrates the accessing of github meta data.</p>
-
-<h2 id="what-does-github-metadata-do">What does Github-MetaData do?</h2>
-<ul>
-  <li>Propagates the site.github namespace with repository metadata</li>
-  <li>Setting site variables :
     <ul>
-      <li>site.title</li>
-      <li>site.description</li>
-      <li>site.url</li>
-      <li>site.baseurl</li>
+      <li>
+        <p>You may join via <em>‘Direct Entry’</em>. The process for which is clearly explained on <a href="https://may2021.pmrf.in/index.php/guidelines/eligibility-and-application-procedure">PMRF website</a>. In this method, first you receive the fellowship and then you take admission to a PhD program at any of the PMRF granting institutes. Seperate application process and interviews are organised by PMRF coordinating institute. Interviews are similar to PhD/technical interviews but there are some questions like those asked in HR interviews.</p>
+      </li>
+      <li>
+        <p>If you have joined the PhD program then you can apply for PMRF via <em>‘Lateral Entry’</em>. If you have joined after BE/BTech, you will have two years time from the date of admission to apply. For those joining after MSc/MTech, you need to apply within one year of the admission to PhD program. The selection is based on CGPA, statement of purpose, letter of recommendation, research proposal, CV, research experience, etc. This is also highly competitive and in a given academic cycle on an average three students from a department are offered the fellowship. In some departments this number could be less or more. The selection is again done by committee formed by national PMRF coordinating institute.</p>
+      </li>
     </ul>
   </li>
-  <li>Accessing the metadata - duh.</li>
-  <li>Generating edittable links.</li>
-</ul>
+  <li>
+    <p>If you have joined the PhD program then you can also apply for <a href="https://www.primeministerfellowshipscheme.in/">PMFSDR</a> latest by the end of 14 months in PhD program. This fellowship is Public-Private-Partnership (PPP) where a candidate has to find an industry who is willing to collaborate with them. These fellows get twice the amount of fellowship that normal PhD students get. Half of it is paid by the ‘Ministry of Education’ and the other half by the partner industry.</p>
+  </li>
+</ol>
 
-<h2 id="additional-reading">Additional Reading</h2>
-<ul>
-  <li>If you’re recieving incorrect/missing data, you may need to perform a Github API<a href="https://github.com/jekyll/github-metadata/blob/master/docs/authentication.md"> authentication</a>.</li>
-  <li>Go through this <a href="https://jekyll.github.io/github-metadata/">README</a> for more details on the topic.</li>
-  <li><a href="https://github.com/jekyll/github-metadata/blob/master/docs/site.github.md">This page</a> highlights all the feilds you can access with github-metadata.
-<br /></li>
-</ul>
+<hr />
 
-<h2 id="example-metadata">Example MetaData</h2>
-<ul>
-  <li>Host Name :</li>
-  <li>URL :</li>
-  <li>BaseURL :</li>
-  <li>Archived :</li>
-  <li>Contributors :</li>
-</ul>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><summary type="html"><![CDATA[a quick run down on accessing github metadata.]]></summary></entry><entry><title type="html">a post with twitter</title><link href="https://alshedivat.github.io/al-folio/blog/2020/twitter/" rel="alternate" type="text/html" title="a post with twitter" /><published>2020-09-28T15:12:00+00:00</published><updated>2020-09-28T15:12:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2020/twitter</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2020/twitter/"><![CDATA[<p>A sample blog page that demonstrates the inclusion of Tweets/Timelines/etc.</p>
+<h4 id="what-to-prepare-for-interviews-what-do-interviewers-ask">What to prepare for interviews? What do interviewers ask?</h4>
 
-<h1 id="tweet">Tweet</h1>
-<p>An example of displaying a tweet:</p>
-<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="sv" dir="ltr">jekyll-twitter-plugin (1.0.0): A Liquid tag plugin for Jekyll that renders Tweets from Twitter API <a href="http://t.co/m4EIQPM9h4">http://t.co/m4EIQPM9h4</a></p>&mdash; RubyGems (@rubygems) <a href="https://twitter.com/rubygems/status/518821243320287232?ref_src=twsrc%5Etfw">October 5, 2014</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+<p><em>This answer is more applicable to materials engineering department. It would be similar for other departments but do check with the students from those departments.</em></p>
 
-<h1 id="timeline">Timeline</h1>
-<p>An example of pulling from a timeline:</p>
-<div class="jekyll-twitter-plugin"><a class="twitter-timeline" data-width="500" data-tweet-limit="3" href="https://twitter.com/jekyllrb?ref_src=twsrc%5Etfw">Tweets by jekyllrb</a>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+<p>The interviews usually last for around 15-20 min. There will be atleast 4-5 professors in the panel and sometimes there could be as many as 10 but only few of them will ask questions. They will ask you for your area of interest and topics. They will mostly limit their questions to those areas. The professors who are related to these areas will ask most of the questions. The questions are very basic and fundamentals. They won’t ask people to derive complicated things or ask about tough things. The intention here is to check how much understanding and clarity the candidate has on the topic. Usually, people know answers to the tough questions but not the fundamental ones. To prepare for these questions, whenever you read a topic, think about why something is happening? how it is happening? how do we find it? what if this happens? what if that happens? eg. they will ask you to write or draw something and then will keep asking why and what if questions until you answer them all or get stuck. Don’t worry if you are not able to answer a question. Focus on next question. Not knowing is better than knowing something totally wrong. Don’t try to trick or lie they are not going to fall for it. Sometimes they might fool you by acting like whatever you said is correct. Sometimes they will try to confuse you by cross questioning and saying exactly opposite to what you said. This is to check your confidence and clarity on whatever you said.</p>
 
-<h1 id="additional-details">Additional Details</h1>
-<p>For more details on using the plugin visit: <a href="https://github.com/rob-murray/jekyll-twitter-plugin">jekyll-twitter-plugin</a></p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><category term="formatting" /><summary type="html"><![CDATA[an example of a blog post with twitter]]></summary></entry><entry><title type="html">a post with disqus comments</title><link href="https://alshedivat.github.io/al-folio/blog/2015/disqus-comments/" rel="alternate" type="text/html" title="a post with disqus comments" /><published>2015-10-20T15:59:00+00:00</published><updated>2015-10-20T15:59:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2015/disqus-comments</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2015/disqus-comments/"><![CDATA[<p>This post shows how to add DISQUS comments.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><summary type="html"><![CDATA[an example of a blog post with disqus comments]]></summary></entry></feed>
+<p>There may be some simple maths questions as well. eg. can you plot this equation? what will happen if we multipy these two things? Nothing too difficult but they check whether you can visualize and think on the spot.</p>
+
+<p>Sometimes, they may ask for thesis project but not many questions are asked on it. There main focus is fundamentals.</p>
+
+<p>Prepare few subjects or topics really well and get a clear understanding. Think about what they could ask on it? If there is a plot, think about how you calculate it? what do the slopes signify? etc.</p>
+
+<hr />
+
+<h4 id="some-other-tips">Some other tips:</h4>
+
+<ol>
+  <li>
+    <p>If you are interested in working in some department or with some professor, it would be a good idea to contact them either when you are applying or once you receive the interview call letter. You will find the contact info on department or lab websites. If you are have some specific area of research and professor in mind then it would be a good idea to contact them and find out whether they are looking for any PhD students in this admission cycle. After taking admission and joining a department, you will be asked to give a preference list of supervisors you are interested to work with. But you can choose only those professors who are planning to take students. So, it would be good to know whether the professor you are really interested in is planning to take any students or not.</p>
+  </li>
+  <li>
+    <p>While writing to a professor or their lab members, introduce yourself and clearly state your purpose and interests. These people are very busy so keep your discussion short and to the point. Don’t write a very big email telling about yourself, rather attach your CV. Be patient and send a reminder email only if you do not receive a reply in a few days. If they find your profile interesting then they will surely contact you. As much as you are looking for research opportunities and professors to work with they are also looking for good candidates.</p>
+  </li>
+</ol>
+
+<hr />
+
+<p><strong>Disclaimer:</strong> This is an informal guide for people who are interested in joing PhD program at IISc, Bangalore. The particulars given in this article may change with time so please verify them from official sources. The information given by official sources like IISc admissions website and PMRF official website supercedes this article. Kindly use your common sense while following this article.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[A quick guide on PhD admission process at IISc and interview preparation]]></summary></entry><entry><title type="html">OpenFOAM Resources</title><link href="https://swapnilbhure.github.io/blog/2021/openfoam-resources/" rel="alternate" type="text/html" title="OpenFOAM Resources" /><published>2021-07-20T00:00:00+00:00</published><updated>2021-07-20T00:00:00+00:00</updated><id>https://swapnilbhure.github.io/blog/2021/openfoam-resources</id><content type="html" xml:base="https://swapnilbhure.github.io/blog/2021/openfoam-resources/"><![CDATA[<ol>
+  <li>
+    <p>OpenFOAM-4.x installation guide:</p>
+
+    <p><a href="https://openfoamwiki.net/index.php/Installation/Linux/OpenFOAM-4.x/Ubuntu#Ubuntu_18.04">Installation/Linux/OpenFOAM-4.x/Ubuntu</a></p>
+  </li>
+  <li>
+    <p>OpenFOAM shell commands and advanced use:</p>
+
+    <p><a href="https://openfoamwiki.net/index.php/Installation/Working_with_the_Shell#Using_aliases_to_help_manage_multiple_OpenFOAM_versions">Installation/Working with the Shell</a></p>
+  </li>
+  <li>
+    <p>OpenFOAM wiki : Link to lot of OpenFOAM resources</p>
+
+    <p><a href="https://openfoamwiki.net/index.php/Main_Page">OpenFOAMWiki</a></p>
+  </li>
+  <li>
+    <p>Building a solver from scratch:</p>
+
+    <p><a href="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dccaa352-8f6d-4a46-8263-cad1925accb3/programming_scratch_app.pdf">programming_scratch_app.pdf</a></p>
+  </li>
+  <li>
+    <p>Chalmers university OpenFoam course material. very good.</p>
+
+    <p><a href="http://www.tfd.chalmers.se/~hani/kurser/OS_CFD_2008/">PhD course in CFD with OpenSource software, Quarter 2, 2008</a></p>
+  </li>
+  <li>
+    <p>Syntaxes of functions and expressions in OpenFOAM like exp, sqrt. pos(x), etc.</p>
+
+    <p><a href="https://www.openfoam.com/documentation/guides/latest/doc/openfoam-guide-expression-syntax.html">OpenFOAM</a></p>
+  </li>
+  <li>
+    <p>Lot of great OpenFOAM CFD tutorials, book, videos, etc.</p>
+
+    <p>Basic tutorial and even written text guide is very good. well organised content. Holzmann has also written a book on OpenOFAM.</p>
+
+    <p><a href="https://holzmann-cfd.com/">Numerical Solutions - OpenFOAM Knowledge Base</a></p>
+  </li>
+  <li>
+    <p>Resources by OpenFOAM Foundation: Includes C++ source guide, technical guide, training and user guide.</p>
+
+    <p>C++ source guide is the most imp thing here.</p>
+
+    <p><a href="https://openfoam.org/resources/">OpenFOAM Resources - OpenFOAM</a></p>
+  </li>
+  <li>
+    <p>Basic essential Linux commands you should know to better use OpenFOAM:</p>
+
+    <p><a href="https://cfd.direct/openfoam/linux-guide/">OpenFOAM Linux Guide - CFD Direct</a></p>
+  </li>
+  <li>
+    <p>Accessing mesh info:</p>
+
+    <p><a href="https://jibranhaider.com/blog/mesh-information-in-openfoam/">How to get mesh information in OpenFOAM?</a></p>
+  </li>
+  <li>
+    <p>Matrices in OpenFOAM:</p>
+
+    <p><a href="https://openfoamwiki.net/index.php/OpenFOAM_guide/Matrices_in_OpenFOAM">OpenFOAM guide/Matrices in OpenFOAM</a></p>
+  </li>
+  <li>
+    <p>Introductory C++ for OpenFOAM:</p>
+
+    <p><a href="https://youtube.com/playlist?list=PLhPfNw4V4_YT9OgqS7ZPlot_Ucxzc6pQJ">Introductory C++ for OpenFoam Users</a></p>
+  </li>
+  <li>
+    <p>OpenFOAM and C++ <strong>coding style guide</strong>:</p>
+
+    <table>
+      <tbody>
+        <tr>
+          <td>[Coding Style Guide</td>
+          <td>OpenFOAM](https://openfoam.org/dev/coding-style-guide/)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p><a href="https://github.com/theodoreOnzGit/C-_YouTube_OpenFoam">theodoreOnzGit/C-_YouTube_OpenFoam</a></p>
+  </li>
+  <li>
+    <p>OpenFOAM bash commands:</p>
+
+    <p><a href="https://youtube.com/playlist?list=PLhPfNw4V4_YT5zjBhfj5Hj4r4D5eXilcU">OpenFOAM Bash</a></p>
+  </li>
+  <li>
+    <p>Solvers related study material</p>
+
+    <p><a href="http://www.tfd.chalmers.se/~hani/kurser/OS_CFD_2008/TimBehrens/tibeh-slides.pdf">Tim Behrens-OpenFOAM basic solvers for linear systems of equations-slides.pdf</a></p>
+
+    <p><a href="http://www.tfd.chalmers.se/~hani/kurser/OS_CFD_2008/TimBehrens/tibeh-report-fin.pdf">Tim Behrens-OpenFOAM basic solvers for linear systems of equations.pdf</a></p>
+  </li>
+</ol>]]></content><author><name></name></author><summary type="html"><![CDATA[A compilation of OpenFOAM resources]]></summary></entry></feed>
