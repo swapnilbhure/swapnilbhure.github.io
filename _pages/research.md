@@ -60,5 +60,5 @@ crystal substrate, then single-crystal builds can be achieved with optimised pro
 <figure>
   <center><img src="../assets/img/sx_rod_IITH_cont.png" style="width:45%" alt="mc_poly" >
   <img src="../assets/img/EBSD_central_sx_rod_IITH_cont.png" style="width:45%" alt="mc_sx" >
-  <figcaption>Figure 5: Rod sample printed on a single-crystal substrate (a) sample image with scale (b)EBSD image of 14mm long longitudinal section </figcaption></center>
+  <figcaption>Figure 4: Rod sample printed on a single-crystal substrate (a) sample image with scale (b)EBSD image of 14mm long longitudinal section </figcaption></center>
 </figure>
