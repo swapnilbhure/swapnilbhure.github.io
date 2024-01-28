@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Bhure Swapnil Shadanan # the website title (if blank, full name will be used instead)
+title: Swapnil Bhure # the website title (if blank, full name will be used instead)
 first_name: Swapnil
-middle_name: Shadanan
+middle_name: 
 last_name: Bhure
 email: swapnilbhure@iisc.ac.in
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
