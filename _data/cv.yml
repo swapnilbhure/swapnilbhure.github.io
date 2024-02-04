@@ -36,6 +36,7 @@
             - Developed a grand-potential and orientation-field-based phase-field model to simulate columnar to equiaxed transition (CET) and micro-segregation.
             - Developed a Monte-Carlo based model to simulate grain growth during AM process.
             - Conducted directed energy deposition (DED) based AM experiments to validate process and microstructure model.
+            - Produced near single-crystal CMSX-4 superalloy rods
 
     - title: Junior Research Fellow, Materials Engineering
       institution: Indian Institute of Science (IISc), Bangalore, Karnataka, India
@@ -53,7 +54,7 @@
   type: time_table
   contents:
     - title: Guest Lecturer, Department of Metallurgical and Materials Engineering, VNIT, Nagpur
-      year: Aug 2022 - Present
+      year: Aug 2022 - Dec 2022
       description: 
         - title: Foundations and applications of modelling and simulation
           contents: 
@@ -89,6 +90,11 @@
 - title: Awards and Positions of responsibility
   type: time_table
   contents:
+    - title: Won Best Poster award in the Eighth International Conference on Solidification Science and Processing (ICSSP-8) 
+      year: Dec 2023
+      description: 
+        - Presented work titled 'Toward DS/SX Ni-Based Superalloy Components Using L-DED- A Multi-scale Modeling and Experimental Approach.'
+    
     - title: Convenor - 35th Annual Students’ Symposium, Materials Engineering, IISc, Bangalore 
       year: April 2022
       description: 
